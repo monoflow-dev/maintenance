@@ -8,8 +8,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
     .button {
+        position: relative;
         box-sizing: border-box;
         display: block;
         padding: 7px 24px 5px;
@@ -18,13 +19,29 @@ export default {
         font-weight: 500;
         text-decoration: none;
         border: 2px solid #0055FF;
-        border-radius: 20px;
+        border-radius: 4px;
         color: #0055FF;
         transition: all 300ms ease-in-out;
-    }
 
-    .button:hover {
-      background-color: #0055FF;
-      color: white;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background: #0055FF;
+            transition: all 300ms ease-in-out;
+            border-radius: 2px;
+        }
+
+        &:hover {
+            color: white;
+        }
+
+        &:hover:before {
+            width: 100%;
+        }
     }
 </style>
