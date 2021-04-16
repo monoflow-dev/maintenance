@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <div class="content-wrap">
+    <div class="content-wrap container">
         <header class="header">
             <g-link to="/">
               <g-image alt="Example image" src="~/logo_monoflow-studio.svg" width="200" />
@@ -13,8 +13,8 @@
           </nav> -->
         </header>
         <slot/>
+        <Footer />
     </div>
-    <Footer />
   </div>
 </template>
 
@@ -48,10 +48,10 @@ query {
   }
 
   .layout {
-    position: relative;
+    /* position: relative;
     max-width: 1200px;
     min-height: 100vh;
-    margin: 0 auto;
+    margin: 0 auto; */
     padding-left: 20px;
     padding-right: 20px;
   }

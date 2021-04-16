@@ -1,0 +1,47 @@
+// Brand
+
+$Blue-50: hsla(220, 100, 50, 1);
+$Blue-100: hsla(220, 100, 40, 1);
+$Blue-200: hsla(220, 100, 30, 1);
+
+$Sand-50: hsla(35, 60, 96, 1);
+$Sand-100: hsla(35, 60, 88, 1);
+$Sand-200: hsla(35, 60, 92, 1);
+
+
+// Text Colors
+
+$Dark: hsla(220, 20, 20, 1);
+$Light: hsla(0, 0, 100, 1);
+
+
+// Shades
+
+$Grey-100: hsla(220, 1, 99, 1);
+$Grey-200: hsla(220, 3, 97, 1);
+$Grey-300: hsla(220, 10, 90, 1);
+$Grey-400: hsla(220, 10, 60, 1);
+$Grey-500: hsla(220, 10, 45, 1);
+$Grey-600: hsla(220, 20, 25, 1);
+
+
+
+:export{
+    Blue-50: $Blue-50;
+    Blue-100: $Blue-100;
+    Blue-200: $Blue-200;
+
+    Sand-50: $Sand-50;
+    Sand-100: $Sand-100;
+    Sand-200: $Sand-200;
+
+    Dark: $Dark;
+    Light: $Light;
+
+    Grey-100: $Grey-100;
+    Grey-200: $Grey-200;
+    Grey-300: $Grey-300;
+    Grey-400: $Grey-400;
+    Grey-500: $Grey-500;
+    Grey-600: $Grey-600;
+}

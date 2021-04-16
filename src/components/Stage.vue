@@ -15,7 +15,6 @@
     h1, h2 {
         margin: 0;
         width: 80%;
-        font-family: 'Poppins', sans-serif;
         font-size: 3rem;
         color: #29303D;
     }
